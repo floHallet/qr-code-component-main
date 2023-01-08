@@ -27,7 +27,7 @@
       }
       main {
         font-family: "Outfit", sans-serif;
-        height: 100vh;
+        min-height: 100vh;
         display: grid;
         place-items: center;
         background-color: hsl(212, 45%, 89%);
@@ -40,10 +40,9 @@
         color: hsl(228, 45%, 44%);
       }
       #card {
-        width: 280px;
-        display: grid;
+        width: 285px;
         background-color: hsl(0, 0%, 100%);
-        padding: 14px;
+        padding: 15px;
         border-radius: 20px;
       }
       img {
@@ -54,30 +53,30 @@
       p {
         font-weight: 400;
         text-align: center;
-        font-size: 20px;
-        padding: 0px 16px 0 16px;
-        letter-spacing: 0.5px;
-      }
-      .strong {
-        font-weight: 700;
-        color: hsl(218, 44%, 22%);
-        margin-bottom: 15px;
-      }
-      .small {
-        font-size: 14px;
+        font-size: 15px;
+        padding: 0px 15px 0 15px;
         margin-top: 0;
-        margin-bottom: 26px;
-        opacity: 0.7;
+        margin-bottom: 30px;
+        opacity: 0.9;
         color: hsl(220, 15%, 55%);
+      }
+      h1 {
+        font-weight: 700;
+        text-align: center;
+        font-size: 21px;
+        padding: 0px 15px 0 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: hsl(218, 44%, 22%);
       }
     </style>
   </head>
   <body>
     <main>
       <div id="card">
-        <img src="./images/image-qr-code.png" alt="" />
-        <p class="strong">Improve your front-end skills by building projects</p>
-        <p class="small">
+        <img src="./images/image-qr-code.png" alt="a QR code" />
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
